@@ -9,6 +9,10 @@ public class TaskDTO {
     private List<SingleChoiceTask.Option> options;
     private Long courseId;
 
+    public TaskDTO() {
+
+    }
+
     public TaskDTO(String statement, int order, List<SingleChoiceTask.Option> options, Long courseId) {
         this.statement = statement;
         this.order = order;
